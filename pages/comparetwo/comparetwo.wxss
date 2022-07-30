@@ -1,0 +1,49 @@
+page{
+  height: 100%
+}
+/* border-radius: 98rpx;是控制按钮边变圆 */
+
+.goodbutton {
+
+  margin-top: 30px;
+
+  width: 80%;
+
+  background-color: rgba(21, 102, 223, 0.795);
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+}
+
+ 
+
+/* 按下变颜色 */
+
+.hover {
+
+  background:  rgb(236, 179, 156);
+
+}
+.prix {
+
+  color: rgba(236, 232, 232, 0.767);
+
+  font-size: 50rpx;
+
+  font-weight: 600;
+
+  margin-right: 25rpx;
+
+}
+.input{
+    width: 626rpx;height: 100rpx;
+    margin-left: 20rpx;
+    border-radius: 60rpx;
+    position: relative;
+    background: rgb(236, 235, 238);
+    text-align: center;
+}

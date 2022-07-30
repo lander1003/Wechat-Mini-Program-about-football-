@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/new/new",
+    "pages/compare/compare",
+    "pages/searchresult/searchresult",
+    "pages/compareone/compareone",
+    "pages/comparetwo/comparetwo",
+    "pages/comparethree/comparethree",
+    "pages/showplayer/showplayer",
+    "pages/newshow/newshow"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0387FE",
+    "navigationBarTitleText": "俺是懂球帝",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FF66"
+  },
+    "tabBar": {
+      "selectedColor": "#0387FE",
+
+      "list": [
+        {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "img/ball.png",
+                "selectedIconPath": "img/ball-s.png"
+        },
+        {
+          "pagePath": "pages/search/search",
+          "text": "查询球员",
+          "iconPath": "img/sousuo.png",
+          "selectedIconPath": "img/sousuo_s.png"
+        },
+        {
+          "pagePath": "pages/new/new",
+          "text": "创建球员",
+          "iconPath": "img/chuangjianren.png",
+          "selectedIconPath": "img/chuangjianren_s.png"
+        },
+        {
+          "pagePath": "pages/compare/compare",
+          "text": "对比球员",
+          "iconPath": "img/duibi.png",
+          "selectedIconPath": "img/duibi_s.png"
+        }
+
+      ]
+    },
+  "sitemapLocation": "sitemap.json"
+}

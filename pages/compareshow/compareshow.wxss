@@ -1,0 +1,45 @@
+page{
+  height: 100%
+}
+.total{
+      height: 100%;
+    width:100%;
+    display:flex;
+}
+.show1{
+  //text-align: center;
+}
+.showplayer1{
+  justify-content: center;
+  display: table;
+  color: rgba(8, 219, 61, 0.575);
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 25rpx;
+  text-align:center; 
+  
+}
+.show2{
+ // text-align: center;
+}
+.showplayer2{
+  justify-content: center;
+  display: table;
+  color: rgb(241, 224, 228);
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 25rpx;
+  text-align:center; 
+  
+}
+.better{
+  justify-content: center;
+  display: table;
+  color: rgb(245, 61, 16);
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 25rpx;
+  text-align:center; 
+  
+  
+}

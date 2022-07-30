@@ -1,0 +1,55 @@
+page{
+  height: 100%
+}
+.show{
+  text-align: center;
+  align-items: center;
+}
+
+.showplayer{
+  justify-content: center;
+  display: table;
+ margin: auto;
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align:center; 
+   color: rgba(242, 250, 249, 0.575);
+   height: 80rpx;
+}
+.total{
+  text-align: center;
+  margin: auto;
+}
+.input{
+    width: 300rpx;height: 120rpx;
+    margin: auto;
+    border-radius: 60rpx;
+    position: relative;
+    background: rgb(236, 235, 238);
+    text-align: center;
+}
+.goodbutton {
+
+  margin-top: 30px;
+
+  width: 40%;
+
+  background-color: rgb(77, 166, 224);
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+}
+
+ 
+
+/* 按下变颜色 */
+
+.hover {
+
+  background:  rgb(236, 179, 156);
+
+}

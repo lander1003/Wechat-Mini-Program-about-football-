@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container" style='width:100%;min-height:100%;background-image:url("/img/main2.png");background-size:100% 100%;'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> LANDER </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+    <text>Hello lander</text>
+    <text>当前时间：{{time}}</text>
+    <view>{{"hello my"+name}}</view>
+    <view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view>
+
+    <text class="user-motto">{{motto}}</text>
+
+
+</view>

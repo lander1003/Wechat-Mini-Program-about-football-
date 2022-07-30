@@ -1,0 +1,17 @@
+<view class="showplayer" wx:for="{{second}}" wx:for-item="it" data-index="{{index}}" bindtap='choose'>
+<view class="footballer_img">
+<image src='/img/footballer.png'></image>
+</view>
+<view class="prix">
+<text class="prix1">姓名:{{it.name}}</text>
+<view>
+<text class="prix2">年龄:{{it.age}}</text>
+</view>
+<view>
+<text class="prix2">国籍:{{it.nation}}</text>
+</view>
+<view>
+<text class="prix2">俱乐部:{{it.club}}</text>
+</view>
+</view>
+</view>

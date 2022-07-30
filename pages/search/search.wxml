@@ -1,0 +1,11 @@
+<view class="container" style='width:100%;min-height:100%;background-image:url("/img/searchblue.png");background-size:100% 100%;'>
+  <input class='input' placeholder="请输入球员或者俱乐部" bindinput='talks' type='text'>
+</input>
+
+<button class='goodbutton'  hover-class="hover" bindtap="oksclub">搜索俱乐部</button>
+
+
+
+<button class='goodbutton'  hover-class="hover"  bindtap="oksplayer">搜索球员</button>
+</view>
+

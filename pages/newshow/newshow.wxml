@@ -1,0 +1,21 @@
+<view class="show">
+<text class="showplayer">姓名:{{name}} </text>
+ <text class="showplayer"> 俱乐部:{{club}}</text>
+  <text class="showplayer"> 年龄:{{age}}</text> 
+  <text class="showplayer"> 国籍:{{nation}}</text>
+   <text class="showplayer"> 场上位置:{{position}}</text>
+  <text class="showplayer"> 射门值:{{shoot}}</text> 
+  <text class="showplayer"> 速度值:{{pace}}</text> 
+ <text class="showplayer"> 力量值:{{strength}} </text>
+ <text class="showplayer">  防守值:{{defence}} </text>  
+ <text class="showplayer">盘带值:{{dribbling}}  </text>
+  <text class="showplayer">    传球值:{{pass}} </text> 
+  <text class="showplayer">    心态值:{{mindset}} </text>
+</view>
+
+<view>
+<button class='goodbutton' bindtap="newok">检查信息无误，确定创建球员</button>
+<toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+        {{result}}
+</toast>
+</view>

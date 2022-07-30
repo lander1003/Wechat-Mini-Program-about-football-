@@ -1,0 +1,40 @@
+.show{
+  text-align: center;
+  margin:auto;
+}
+.showplayer{
+  justify-content: center;
+  display: table;
+  color: rgba(4, 99, 83, 0.575);
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-right: 25rpx;
+  text-align:center; 
+  
+}
+
+.goodbutton {
+
+  margin-top: 30px;
+
+  width: 85%;
+
+  background-color: rgb(16, 123, 245);
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+}
+
+ 
+
+/* 按下变颜色 */
+
+.hover {
+
+  background:  rgb(236, 179, 156);
+
+}

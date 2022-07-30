@@ -1,0 +1,44 @@
+page{
+  height: 100%
+}
+.goodbutton {
+
+  margin-top: 30px;
+
+  width: 80%;
+
+ background-color: rgba(21, 102, 223, 0.795);
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+}
+
+ 
+
+/* 按下变颜色 */
+
+.hover {
+
+  background:  rgb(236, 179, 156);
+
+}
+.section text{
+   color: rgba(245, 250, 248, 0.575);
+  font-size: 50rpx;
+}
+.allinput input{
+    width: 500rpx;height: 100rpx;
+    margin: auto;
+    border-radius: 60rpx;
+    position: relative;
+    background: rgb(7, 168, 231);
+    text-align: center;
+}
+.colorword{
+  color: rgba(224, 230, 227, 0.575);
+  height: 60rpx;
+}

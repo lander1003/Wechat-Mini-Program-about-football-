@@ -1,0 +1,78 @@
+<view class="total"  style='width:100%;min-height:100%;background-image:url("/img/showblue.png");background-size:100% 100%;'>
+<view class="show1">
+<text class="showplayer1">姓名:{{name1}} </text>
+ <text class="showplayer1"> 俱乐部:{{club1}}</text>
+  <text class="showplayer1"> 年龄:{{age1}}</text> 
+  <text class="showplayer1"> 国籍:{{nation1}}</text>
+   <text class="showplayer1"> 场上位置:{{position1}}</text>
+
+   <block wx:if="{{shoot1>shoot2}}">
+<text class="better">射门值:{{shoot1}}</text> 
+  </block>
+   <block wx:else><text class="showplayer1"> 射门值:{{shoot1}}</text></block>
+
+    <block wx:if="{{pace1>pace2}}">
+  <text class="better"> 速度值:{{pace1}}</text> </block>
+   <block wx:else><text class="showplayer1">  速度值:{{pace1}}</text></block>
+
+  <block wx:if="{{strength1>strength2}}">
+ <text class="better"> 力量值:{{strength1}} </text></block>
+   <block wx:else><text class="showplayer1">  力量值:{{strength1}}</text></block>
+
+<block wx:if="{{defence1>defence2}}">
+ <text class="better">  防守值:{{defence1}} </text>  </block>
+    <block wx:else><text class="showplayer1">  防守值:{{defence1}}</text></block>
+
+<block wx:if="{{dribbling1>dribbling2}}">
+ <text class="better">盘带值:{{dribbling1}}  </text>  </block>
+     <block wx:else><text class="showplayer1">  盘带值:{{dribbling1}} </text></block>
+ 
+ <block wx:if="{{pass1>pass2}}">
+  <text class="better">   传球值:{{pass1}} </text></block> 
+ <block wx:else><text class="showplayer1">   传球值:{{pass1}} </text></block>
+
+  <block wx:if="{{mindset1>mindset2}}">
+  <text class="better">    心态值:{{mindset1}} </text></block>
+   <block wx:else><text class="showplayer1">    心态值:{{mindset1}}</text></block>
+
+    <text class="showplayer1">    用户打分:{{eva1}} </text>
+</view>
+
+<view class="show2">
+<text class="showplayer2">姓名:{{name2}} </text>
+ <text class="showplayer2"> 俱乐部:{{club2}}</text>
+  <text class="showplayer2"> 年龄:{{age2}}</text> 
+  <text class="showplayer2"> 国籍:{{nation2}}</text>
+   <text class="showplayer2"> 场上位置:{{position2}}</text>
+  
+   <block wx:if="{{shoot2>shoot1}}">
+<text class="better">射门值:{{shoot2}}</text> 
+  </block>
+   <block wx:else><text class="showplayer2"> 射门值:{{shoot2}}</text></block>
+
+    <block wx:if="{{pace2>pace1}}">
+  <text class="better"> 速度值:{{pace2}}</text> </block>
+   <block wx:else><text class="showplayer2">  速度值:{{pace2}}</text></block>
+
+  <block wx:if="{{strength2>strength1}}">
+ <text class="better"> 力量值:{{strength2}} </text></block>
+   <block wx:else><text class="showplayer2">  力量值:{{strength2}}</text></block>
+
+<block wx:if="{{defence2>defence1}}">
+ <text class="better">  防守值:{{defence2}} </text>  </block>
+    <block wx:else><text class="showplayer2">  防守值:{{defence2}}</text></block>
+
+<block wx:if="{{dribbling2>dribbling1}}">
+ <text class="better">盘带值:{{dribbling2}}  </text>  </block>
+     <block wx:else><text class="showplayer2">  盘带值:{{dribbling2}}</text></block>
+ 
+ <block wx:if="{{pass2>pass1}}">
+  <text class="better">   传球值:{{pass2}} </text></block> 
+ <block wx:else><text class="showplayer2">   传球值:{{pass2}} </text></block>
+
+  <block wx:if="{{mindset2>mindset1}}">
+  <text class="better">    心态值:{{mindset2}} </text></block>
+   <block wx:else><text class="showplayer2">    心态值:{{mindset2}}</text></block>
+    <text class="showplayer2">    用户打分:{{eva2}} </text>
+</view>
+</view>

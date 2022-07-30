@@ -1,0 +1,69 @@
+<view class="allinput" style='width:100%;min-height:100%;background-image:url("/img/newblue.png");background-size:100% 100%;'>
+<view class="section">
+<text>请按照提示输入数据</text>
+</view>
+
+<view class="section">
+<text>姓名（请输入中文）</text>
+<input  placeholder='请输入球员姓名' placeholder-class='colorword' bindinput="getname"></input>
+</view>
+
+<view class="section">
+<text>年龄</text>
+<input placeholder='请输入球员年龄' placeholder-class='colorword' bindinput="getage"></input>
+</view>
+
+<view class="section">
+<text>国籍</text>
+<input placeholder='请输入球员国籍' placeholder-class='colorword' bindinput="getnation"></input>
+</view>
+
+<view class="section">
+<text>所在俱乐部</text>
+<input placeholder='请输入球员所在俱乐部' placeholder-class='colorword' bindinput="getclub"></input>
+</view>
+
+<view class="section">
+<text>球员位置（可供选择：前场、中场、后场、门将）</text>
+<input placeholder='请输入球员位置' placeholder-class='colorword' bindinput="getposition"></input>
+</view>
+
+<view class="section">
+<text>射门值（0~100）</text>
+<input placeholder='请输入球员射门值' placeholder-class='colorword' bindinput="getshoot"></input>
+</view>
+
+<view class="section">
+<text>速度值（0~100）</text>
+<input placeholder='请输入球员速度值' placeholder-class='colorword' bindinput="getpace"></input>
+</view>
+
+<view class="section">
+<text>力量值（0~100）</text>
+<input placeholder='请输入球员力量值' placeholder-class='colorword' bindinput="getstrength"></input>
+</view>
+
+<view class="section">
+<text>防守能力（0~100）</text>
+<input placeholder='请输入球员防守值' placeholder-class='colorword' bindinput="getdefence"></input>
+</view>
+
+<view class="section">
+<text>盘带值（0~100）</text>
+<input placeholder='请输入球员盘带值' placeholder-class='colorword' bindinput="getdribbling"></input>
+</view>
+
+<view class="section">
+<text>传球值（0~100）</text>
+<input placeholder='请输入球员传球值' placeholder-class='colorword' bindinput="getpass"></input>
+</view>
+
+<view class="section">
+<text>心态值（0~100）</text>
+<input placeholder='请输入球员心态值' placeholder-class='colorword' bindinput="getmindset"></input>
+</view>
+
+<view>
+<button class='goodbutton' bindtap="playerok">创建球员</button>
+</view>
+</view>

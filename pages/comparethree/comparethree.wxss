@@ -1,0 +1,56 @@
+.showplayer{
+
+  display: flex;
+
+  flex-wrap:wrap;
+
+  width: 100%;
+
+  border-top: 2rpx #dedede solid;
+
+  margin-top: 25rpx;
+
+  padding-top:10rpx; 
+
+  background: #F6F6F6;
+
+}
+.footballer_img{
+
+  width: 40%;
+
+  padding: 25rpx;
+
+}
+
+.footballer_img image{
+
+  width: 100%;
+
+  height: 220rpx;
+
+}
+.prix{
+  
+  margin-top:25rpx; 
+}
+.prix1 {
+
+  color: rgba(21, 63, 250, 0.575);
+
+  font-size: 60rpx;
+
+  font-weight: 600;
+
+  margin-right: 25rpx;
+
+}
+.prix2{
+  color: rgba(31, 43, 41, 0.575);
+
+  font-size: 35rpx;
+
+  font-weight: 600;
+
+  margin-right: 25rpx;
+}
